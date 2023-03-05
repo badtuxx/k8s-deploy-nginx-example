@@ -10,7 +10,7 @@ spec: # especificação do recurso
   template: # template do deployment
     metadata: # metadados do template
       labels: # labels do template
-        app: nginx # label que identifica o app
+        app: ngiaanx # label que identifica o app
       annotations: # annotations do template
         prometheus.io/scrape: 'true' # habilita o scraping do Prometheus
         prometheus.io/port: '9113' # porta do target
