@@ -4,7 +4,7 @@ metadata: # metadados do recurso
   name: nginx-svc # nome do recurso
   labels: # labels do recurso
     app: nginx # label para identificar o svc
-spaec: # especificação do recurso
+spec: # especificação do recurso
   ports: # definição da porta do svc 
   - port: 9113 # porta do svc
     name: metrics # nome da porta
