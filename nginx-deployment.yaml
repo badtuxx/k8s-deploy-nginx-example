@@ -17,7 +17,7 @@ spec: # especificação do recurso
     spec: # especificação do template
       containers: # containers do template 
         - name: nginx # nome do container
-          image: ngidsdsadnx # imagem do container do Nginx
+          image: nginx # imagem do container do Nginx
           ports: # portas do container
             - containerPort: 80 # porta do container
               name: http # nome da porta
