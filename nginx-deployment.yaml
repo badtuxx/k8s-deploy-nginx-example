@@ -6,7 +6,7 @@ spec: # especificação do recurso
   selector: # seletor para identificar os pods que serão gerenciados pelo deployment
     matchLabels: # labels que identificam os pods que serão gerenciados pelo deployment
       app: nginx # label que identifica o app que será gerenciado pelo deployment
-  replicas: 2 # quantidade de réplicas do deployment
+  replicas: 5 # quantidade de réplicas do deployment
   template: # template do deployment
     metadata: # metadados do template
       labels: # labels do template
